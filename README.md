@@ -4,6 +4,9 @@
   </p>
 </div>
 
+**This repository is precise copy of https://github.com/ivanesmantovich/xkbswitch.nvim, 
+but with focus functionallity removed.
+**
 Do you have more than one keyboard layout and constantly switching back to English just to be able to move?\
 Stop it, get some help!\
 With **xkbswitch.nvim** you can write comments/notes/documents in your language of choice, press `Esc` to enter Normal mode and instantly be ready to make your next move.\

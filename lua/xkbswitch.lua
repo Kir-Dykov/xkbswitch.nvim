@@ -85,7 +85,7 @@ function M.setup()
     -- 1. Save the current layout
     -- 2. Switch to the US layout if Normal Mode or Visual Mode is the current mode
     autocmd(
-        {'FocusGained', 'CmdlineLeave'},
+        {'CmdlineLeave'},
         {
             pattern = "*",
             callback = function()
@@ -104,7 +104,7 @@ function M.setup()
     -- When entering Insert Mode:
     -- 1. Switch to the previously saved layout
     autocmd(
-        {'FocusLost', 'InsertEnter'},
+        {'InsertEnter'},
         {
             pattern = "*",
             callback = function()
